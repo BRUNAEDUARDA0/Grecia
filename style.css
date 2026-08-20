@@ -1,0 +1,82 @@
+header{
+            background-color: rgb(179, 91, 223); 
+            color: rgb(177, 101, 214);
+            text-align: center;
+            max-width: 800px;
+            margin-bottom: 16px;
+            padding: 16px;
+            border-radius: 5px, solid, rgb(232, 101, 232);
+            display: flexbox;
+        }
+         main{
+           background-color: rgb(219, 120, 84); 
+           color: rgb(113, 62, 160);
+           text-align: ;
+           max-width: 800px
+           margin-bottom 0, auto;
+
+
+        }
+      img{
+        width: 150px;
+        height: 120px;
+      }
+      .artigo-autor{
+        font-weight: bold;
+
+      }
+
+
+    </style>
+</head>
+<body>
+    <h1>Grécia</h1>
+     <p>mundialmente conhecida por suas contribuições à civilização ocidental, especialmente a criação da democracia, os Jogos Olímpicos, a filosofia e o teatro.</p>
+     <header>
+
+     </header>
+
+     <div>
+        <h2> Grécia</h2>
+        <p>class= artigo-autor</p>
+        <p>A ddp é proporcional
+            <button type="button">💜💜 🫰 <span>0</span> </button>
+        </p>
+        <button type="button">🤩 <span>0</span> </button>
+        </p>
+    
+    </div>
+
+
+
+      <main>
+       <img src="" alt="">
+
+    </main>
+    
+     <h2>Mais de 300 dias de sol: É um dos destinos mais ensolarados do mundo, com o sol brilhando por mais de 250 a 300 dias ao longo do ano.</h2>
+     <p>por Bruna</p>
+     
+
+
+</body>
+<script>
+
+    
+    const botoes = document.querySelectorall("button");
+
+    botoes.array.forEach (function(botao){
+        botao.addEventListener("click", botaoClicado);
+        function botaoClicado (){
+            console.log("fui clicado");
+            let texto = botao.querySelector("span");
+            texto.textContent++;
+            
+        }
+        
+    })
+
+
+</script>
+
+</html>
